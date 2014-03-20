@@ -1,0 +1,20 @@
+/*
+This file will be loaded in the page edit page when Visual Composer is activated.
+From here you can style your custom shortcode visual appearance in the backend editor.
+
+Lets add icon for our new shortocde. More information can be found here:
+http://kb.wpbakery.com/index.php?title=VC_Shortcode_Icon_Class
+*/
+
+
+/* Add icon for the "Add element" elements selection popup */
+.wpb-layout-element-button .icon-wpb-vc_extend,
+#slidedeck .icon-wpb-vc_slidedeck { background-image: url(/wp-content/plugins/slidedeck2-personal/images/icon.png); }
+
+
+/* Add background for our shortcode in the Visual Composer backend editor */
+.wpb_bartag .wpb_element_wrapper { background-image: url(/wp-content/plugins/slidedeck2-personal/images/icon.png); }
+
+.wpb_content_element.wpb_slidedeck > .wpb_element_wrapper {
+  background-image: url(/wp-content/plugins/slidedeck2-personal/images/icon.png);
+}
